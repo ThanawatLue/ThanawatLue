@@ -1,52 +1,100 @@
-# Hi, I'm Thanawat 👋
+# Thanawat Lue
 
-**AI Researcher | FinTech Developer | Industrial Automation Engineer**
+**Data / AI Engineer focused on industrial automation, analytics, and workflow systems**
 
-I specialize in bridging the gap between advanced AI research and mission-critical industrial applications. With a background in Digital Analysis and Data Science (DADS), I build systems that are not only intelligent but also secure, compliant, and scalable.
+I build practical software for regulated and operations-heavy environments: data processing pipelines, dashboard applications, audit-ready reporting tools, and automation systems that connect business users with reliable technical workflows.
 
----
+My work sits at the intersection of Python analytics, web applications, enterprise automation, and applied AI. I care about systems that are usable by non-technical teams, traceable enough for quality work, and maintainable after the first demo.
 
-## 🚀 Technical Pillars
+## Core Strengths
 
-### 🧠 1. AI & Deep Learning Research
-*Deeply focused on speech security and computer vision.*
-- **[MM-ConflictBench (Multimodal Research)](d:/ex_work/tong_GapOfMultimodal):** Developed a perception-conditioned benchmark measuring text dominance and cross-modal grounding in vision-language models.
-- **[Thai Speech Spoofing Detection](d:/DADS/IS):** Leveraged Deep Feature Analysis (DFA) to detect audio forgery in the Thai language. (Accuracy 99%+, EER < 2%).
-- **[Sushi Classifier with Grad-CAM](d:/DADS/DADS7202_Deep/DADS7202_HW2-CNN_Sushi):** CNN-based food classification using VGG16/Xception with heatmap interpretability for model validation.
+- **Data applications:** Python, Flask, pandas, Excel automation, reporting pipelines, validation logic
+- **Enterprise automation:** Google Apps Script, low-code business app customization, workflow tools, document generation
+- **AI and research tooling:** LLM workflows, multimodal evaluation, ML-assisted analysis systems
+- **Frontend/product work:** React, Vite, JavaScript, TypeScript, responsive dashboards
+- **Quality mindset:** audit trail design, data integrity checks, GAMP 5-aware development practices
 
-### 📈 2. FinTech & Trading Intelligence
-*Building the "Quant Workstation" of the future.*
-- **[Adaptive Gold Trading Bot](d:/ex_work/tong_goldtrading):** An adaptive algorithmic trading system designed for XAUUSD (Gold), featuring real-time market regime detection, risk management, and a live monitoring dashboard.
-- **[Claude Trading Skills](d:/ex_work/tong_trading):** A modular AI workstation with 50+ skills for market regime analysis, VCP/CANSLIM screening, and automated risk management.
+## Selected Projects
 
-### 🏭 3. Industrial RegTech & Quality
-*Validated software for highly regulated environments.*
-- **[Air Quality Review (AQR)](d:/ex_work/gpo_AirQualityReview_Project):** A GAMP 5-compliant environmental monitoring system with robust data integrity and audit-ready reporting.
-- **[Polymer Market Analysis Engine](d:/ex_work/stamp_LLDPE_C4_Analysis_Project):** Automated data ingestion, PDF extraction, and reporting pipeline for industrial material datasheets, generating comprehensive strategic HTML reports.
-- **[Smart Maintenance Tracker](d:/ex_work/eng_track):** Full-stack GAS application for real-time industrial ticket tracking and Line Notify integration.
+### Industrial Compliance and Data Systems
 
-### 🌐 4. IoT & Embedded Systems
-*Real-world data ingestion and remote control.*
-- **[IoT Lab Portfolio](d:/DADS/IoT):** 14+ projects covering MQTT-based flood control, remote patient monitoring, and smart home dashboards using secure TLS communication.
+**[Air Quality Review System](https://github.com/ThanawatLue/air-quality-review-system)**
 
-### 🛠️ 5. Corporate Automation
-*Enterprise-scale workflow optimization.*
-- **[Kintone PDF & Annotation Plugin](d:/ex_work/kintone_pdf_plugin):** Professional TypeScript plugin for enterprise document generation with iPad Apple Pencil support.
+Validated analytics application for environmental monitoring data in regulated industrial settings.
 
----
+- Processes large BAS/EMS datasets and generates audit-ready Excel reports.
+- Uses background jobs and Server-Sent Events so long-running analysis can stream progress without freezing the browser.
+- Includes setpoint validation, violation detection, audit trail review, and chart-based investigation workflows.
 
-## 🛠️ Tech Stack
-- **Languages:** Python (AI/Trading), JavaScript/TypeScript (Web/Kintone/GAS), C++ (IoT).
-- **AI/ML:** TensorFlow, PyCaret, Librosa, OpenCV, Fabric.js.
-- **Frameworks:** Flask, Streamlit, React, Node.js.
-- **IoT & Protocols:** MQTT, Raspberry Pi, ESP32, TLS/SSL.
-- **Compliance:** GAMP 5, Data Integrity Standards.
+### Workflow Automation and Internal Tools
 
----
+**[Smart Maintenance Tracker](https://github.com/ThanawatLue/smart-maintenance-tracker)**
 
-## 📫 Connect with Me
-- **LinkedIn:** [Your Link Here]
-- **Email:** [Your Email Here]
-- **Portfolio Website:** [Your Link Here]
+Maintenance request tracking application built with Google Apps Script and a web frontend.
 
-*"Turning complex data into actionable intelligence and compliant industrial solutions."*
+- Supports ticket creation, technician workflow, status tracking, chat, photo upload, and rating.
+- Uses Google Sheets / Drive as a lightweight backend for teams that need fast deployment.
+- Designed mobile-first for shop-floor and field usage.
+
+**[Enterprise PDF Annotation Plugin](https://github.com/ThanawatLue/enterprise-pdf-annotation-plugin)**
+
+Architecture showcase for enterprise PDF generation, review, and annotation workflows.
+
+- Covers dynamic PDF generation, browser-based annotation, iPad / Apple Pencil review flows, and secure attachment handling.
+- Represents experience designing document workflows for corporate approval and quality processes.
+
+**[Record PDF Workflow Plugin](https://github.com/ThanawatLue/enterprise-record-pdf-automation)**
+
+Enterprise record PDF workflow customization.
+
+- Focused on extending business records into printable, reviewable document outputs.
+- Part of a broader set of internal workflow automation experiments and client-style tools.
+
+### AI, Research, and Trading Tools
+
+**[MM-ConflictBench](https://github.com/ThanawatLue/MM-ConflictBench)**
+
+Research workspace for evaluating cross-modal grounding in multimodal AI systems.
+
+- Explores whether vision-language models genuinely use visual evidence when text and image signals conflict.
+- Includes proposal material, pilot item design, reference organization, and public-release planning.
+
+**[Claude Trading Skills](https://github.com/ThanawatLue/claude-trading-skills)**
+
+Modular AI-assisted trading research toolkit.
+
+- Organizes market analysis workflows into reusable skills, manifests, and documented operating paths.
+- Covers market regime checks, screening, trade planning, journaling, and review workflows.
+- Built as a research and decision-support system, not a signal-selling or auto-trading product.
+
+**[Adaptive Gold Trading System](https://github.com/ThanawatLue/adaptive-gold-trading-system)**
+
+Python trading-system experiment for XAUUSD / gold market analysis.
+
+- Includes market context, risk management, backtesting, paper-trading, and dashboard components.
+- Demonstrates interest in adaptive systems, decision rules, and operational monitoring.
+
+## Tech Stack
+
+- **Languages:** Python, JavaScript, TypeScript, SQL, C++
+- **Data / ML:** pandas, NumPy, scikit-learn, TensorFlow, OpenCV, Librosa
+- **Web:** Flask, React, Vite, Node.js, HTML/CSS
+- **Automation:** Google Apps Script, low-code business app customization, Excel/report automation
+- **Tools:** Git, GitHub, pytest, REST APIs, SQLite, Google Workspace APIs
+- **Domains:** industrial QA, environmental monitoring, enterprise workflow, AI tooling, trading research
+
+## What I Am Looking For
+
+I am interested in roles where I can build useful software close to real operational problems, especially:
+
+- Data / AI Engineer
+- Automation Engineer
+- Full-stack developer for internal tools
+- Industrial software or quality systems developer
+- Applied AI / LLM workflow engineer
+
+I am strongest when the work needs both engineering and domain understanding: messy data, real users, operational constraints, and systems that must be reliable after deployment.
+
+## Contact
+
+- GitHub: [github.com/ThanawatLue](https://github.com/ThanawatLue)
