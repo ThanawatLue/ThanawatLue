@@ -43,13 +43,6 @@ Architecture showcase for enterprise PDF generation, review, and annotation work
 - Covers dynamic PDF generation, browser-based annotation, iPad / Apple Pencil review flows, and secure attachment handling.
 - Represents experience designing document workflows for corporate approval and quality processes.
 
-**[Record PDF Workflow Plugin](https://github.com/ThanawatLue/enterprise-record-pdf-automation)**
-
-Enterprise record PDF workflow customization.
-
-- Focused on extending business records into printable, reviewable document outputs.
-- Part of a broader set of internal workflow automation experiments and client-style tools.
-
 ### AI, Research, and Trading Tools
 
 **[MM-ConflictBench](https://github.com/ThanawatLue/MM-ConflictBench)**
