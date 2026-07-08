@@ -9,7 +9,7 @@ My work sits at the intersection of Python analytics, web applications, enterpri
 ## Core Strengths
 
 - **Data applications:** Python, Flask, pandas, Excel automation, reporting pipelines, validation logic
-- **Enterprise automation:** Google Apps Script, Kintone customization, workflow tools, document generation
+- **Enterprise automation:** Google Apps Script, low-code business app customization, workflow tools, document generation
 - **AI and research tooling:** LLM workflows, multimodal evaluation, ML-assisted analysis systems
 - **Frontend/product work:** React, Vite, JavaScript, TypeScript, responsive dashboards
 - **Quality mindset:** audit trail design, data integrity checks, GAMP 5-aware development practices
@@ -25,13 +25,6 @@ Validated analytics application for environmental monitoring data in regulated i
 - Processes large BAS/EMS datasets and generates audit-ready Excel reports.
 - Uses background jobs and Server-Sent Events so long-running analysis can stream progress without freezing the browser.
 - Includes setpoint validation, violation detection, audit trail review, and chart-based investigation workflows.
-
-**[LLDPE C4 Process Analysis](https://github.com/ThanawatLue/lldpe-c4-process-analysis)**
-
-Data analysis workspace for polymer / process data review.
-
-- Focused on turning raw operational data into structured analysis outputs.
-- Demonstrates practical data cleaning, exploration, and reporting work.
 
 ### Workflow Automation and Internal Tools
 
@@ -50,9 +43,9 @@ Architecture showcase for enterprise PDF generation, review, and annotation work
 - Covers dynamic PDF generation, browser-based annotation, iPad / Apple Pencil review flows, and secure attachment handling.
 - Represents experience designing document workflows for corporate approval and quality processes.
 
-**[Kintone PDF Workflow Plugin](https://github.com/ThanawatLue/kintone-pdf-workflow-plugin)**
+**[Record PDF Workflow Plugin](https://github.com/ThanawatLue/enterprise-record-pdf-automation)**
 
-Kintone-oriented PDF workflow customization.
+Enterprise record PDF workflow customization.
 
 - Focused on extending business records into printable, reviewable document outputs.
 - Part of a broader set of internal workflow automation experiments and client-style tools.
@@ -74,7 +67,7 @@ Modular AI-assisted trading research toolkit.
 - Covers market regime checks, screening, trade planning, journaling, and review workflows.
 - Built as a research and decision-support system, not a signal-selling or auto-trading product.
 
-**[Adaptive Gold Trading Bot](https://github.com/ThanawatLue/Adaptive-Gold-Trading-Bot)**
+**[Adaptive Gold Trading System](https://github.com/ThanawatLue/adaptive-gold-trading-system)**
 
 Python trading-system experiment for XAUUSD / gold market analysis.
 
@@ -86,7 +79,7 @@ Python trading-system experiment for XAUUSD / gold market analysis.
 - **Languages:** Python, JavaScript, TypeScript, SQL, C++
 - **Data / ML:** pandas, NumPy, scikit-learn, TensorFlow, OpenCV, Librosa
 - **Web:** Flask, React, Vite, Node.js, HTML/CSS
-- **Automation:** Google Apps Script, Kintone customization, Excel/report automation
+- **Automation:** Google Apps Script, low-code business app customization, Excel/report automation
 - **Tools:** Git, GitHub, pytest, REST APIs, SQLite, Google Workspace APIs
 - **Domains:** industrial QA, environmental monitoring, enterprise workflow, AI tooling, trading research
 
